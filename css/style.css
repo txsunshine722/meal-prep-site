@@ -222,7 +222,7 @@ li > p.what-is-it {
 }
 
 .steps div {
-    background-color: var(--primary-color);
+    background-color: white;
     padding: 25px;
     border-radius: 12px;
     width: 250px;
