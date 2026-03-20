@@ -141,6 +141,7 @@ nav a:hover {
     justify-content: center;
     text-align: center;
     color: lightgray;
+    font-size: 28px;
     
 }
 
@@ -155,30 +156,30 @@ nav a:hover {
     border-radius: 10px;
     color: black;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    
 
 }
 
 .meal-container ul {
     font-weight: bold;
-    color: black;
+    color: teal;
     list-style-type: none;
 }
 
 .meal-container li {
-    text-align: left;
+    text-align: center;
     font-weight: bold;
-    color: black;
+    color: var(--primary-color);
     font-size: 22px;
     margin-bottom: 15px;
 }
 li > p.what-is-it {
     color: var(--text-dark);
     font-size: 18px;
-    text-align: left;
+    text-align: center;
     font-weight: normal;
     font-style: italic;
-    margin: 5px 0 0 0;    
+    margin: 5px 0 0 0;
+    padding: 5px; 
 }
 
 .deal-title {
